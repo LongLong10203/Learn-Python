@@ -11,10 +11,10 @@
 3. To submit, press **ctrl+S**
 
 ## Notes [IMPORTANT!!]
-- Running main.py on the first time will install all necessary pip dependencies ofr you
+- Running main.py for the first time will install all necessary pip dependencies for you
 - You may edit the function name in level.py but do NOT edit the parameters and their order
 - Do NOT create more than one function or delete the default function in level.py
 - Do NOT cheat by editing main.py or levels.json
 - Your progress is saved automatically
-- Contact the author Long if you have any questions or enconutered any problems.
+- Contact the author Long if you have any questions or encountered any problems.
 - The game is unfinished due to insufficient levels
