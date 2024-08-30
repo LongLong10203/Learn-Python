@@ -1,5 +1,5 @@
-# Level 2
-# Write a function which returns True if C is between A and B, inclusive, False otherwise.
+# Level 0
+# Write a function which returns "Hello, World!".
 
-def is_between(A: int, B: int, C: int) -> bool:
+def hello_world() -> str:
 	...
