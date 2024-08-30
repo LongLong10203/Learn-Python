@@ -107,7 +107,7 @@ def update_level(next_level=True) -> None:
     desc, function_name, parameters, return_type = \
     data["desc"], data["function_name"], data["parameters"], data["return_type"]
     parameters = [f"{parameter_name}: {parameters[parameter_name]}" for parameter_name in parameters]
-    content = f"# {desc}\n\ndef {function_name}(" + ", ".join(parameters) + f") -> {return_type}:\n\t..."
+    content = f"# Level {current_level}\n# {desc}\n\ndef {function_name}(" + ", ".join(parameters) + f") -> {return_type}:\n\t..."
 
     with open("level.py", "w") as py_file:
         py_file.write(content)
@@ -124,10 +124,8 @@ def handle_error(err) -> None:
 
 def listen_for_ctrl_s() -> None:
     while True:
-        json_file = json.load(open("levels.json"))
-        current_level = json_file["current_level"]
 
-        print(f"You are currently in level {current_level}.")
+        print("Press ctrl+S to submit")
         keyboard.wait("ctrl+s")
         print("Submitting...")
 
