@@ -1,0 +1,100 @@
+{
+    "current_level": "0",
+    "0": {
+        "desc": "Write a function which returns \"Hello, World!\".",
+        "function_name": "hello_world",
+        "parameters": {},
+        "return_type": "str",
+        "testcases": [
+            {
+                "input": {},
+                "output": "Hello, World!"
+            }
+        ]
+    },
+    "1": {
+        "desc": "Write a function which returns the sum of two integers.",
+        "function_name": "add",
+        "parameters": {
+            "num1": "int",
+            "num2": "int"
+        },
+        "return_type": "int",
+        "testcases": [
+            {
+                "input": {
+                    "num1": 8,
+                    "num2": 9
+                },
+                "output": 17
+            },
+            {
+                "input": {
+                    "num1": 123456789,
+                    "num2": 987654321
+                },
+                "output": 1111111110
+            }
+        ]
+    },
+    "2": {
+        "desc": "Write a function which returns True if C is between A and B, inclusive.",
+        "function_name": "is_between",
+        "parameters": {
+            "A": "int",
+            "B": "int",
+            "C": "int"
+        },
+        "return_type": "bool",
+        "testcases": [
+            {
+                "input": {
+                    "A": 1,
+                    "B": 3,
+                    "C": 2
+                },
+                "output": true
+            },
+            {
+                "input": {
+                    "A": 1,
+                    "B": 3,
+                    "C": 1
+                },
+                "output": true
+            },
+            {
+                "input": {
+                    "A": 1,
+                    "B": 3,
+                    "C": 3
+                },
+                "output": true
+            },
+            {
+                "input": {
+                    "A": 1,
+                    "B": 3,
+                    "C": 0
+                },
+                "output": false
+            },
+            {
+                "input": {
+                    "A": 1,
+                    "B": 3,
+                    "C": 4
+                },
+                "output": false
+            },
+            {
+                "input": {
+                    "A": 1,
+                    "B": 1000000000,
+                    "C": 500000000
+                },
+                "output": true
+            }
+        ]
+    }
+}
