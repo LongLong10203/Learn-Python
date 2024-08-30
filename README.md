@@ -2,7 +2,7 @@
 
 ## How To Set Up
 1. Download [vscode](https://code.visualstudio.com/) and launch
-2. Down [this]() zip folder. Unzip it and open it with vscode 
+2. Down [this](https://github.com/LongLong10203/Learn-Python/archive/refs/heads/main.zip) zip folder. Unzip it and open it with vscode 
 3. Set up [Python](https://www.python.org/downloads/) in your vscode
 
 ## How To Play
