@@ -1,4 +1,4 @@
-# Learn Python
+# Learn-Python
 
 ## How To Set Up
 1. Download [vscode](https://code.visualstudio.com/) and launch
@@ -11,9 +11,10 @@
 3. To submit, press **ctrl+S**
 
 ## Notes [IMPORTANT!!]
+- Running main.py on the first time will install all necessary pip dependencies ofr you
 - You may edit the function name in level.py but do NOT edit the parameters and their order
 - Do NOT create more than one function or delete the default function in level.py
 - Do NOT cheat by editing main.py or levels.json
 - Your progress is saved automatically
 - Contact the author Long if you have any questions or enconutered any problems.
-- The levels are unfinished
+- The game is unfinished due to insufficient levels
