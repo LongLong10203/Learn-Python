@@ -6,7 +6,7 @@
 3. Set up [Python](https://www.python.org/downloads/) in your vscode
 
 ## How To Play
-1. Run main.py and the game is going to start
+1. Run main.py
 2. Edit the function in level.py to start playing
 3. To submit, press **ctrl+S**
 
